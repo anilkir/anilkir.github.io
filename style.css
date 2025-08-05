@@ -82,3 +82,24 @@ body {
     font-size: 24px;
     font-weight: 400;
 }
+
+#cloudflare-link {
+    margin-top: 30px;
+}
+
+#cloudflare-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    border: 1px solid white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+#cloudflare-link a:hover {
+    background-color: white;
+    color: black;
+}
